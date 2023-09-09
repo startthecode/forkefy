@@ -100,7 +100,10 @@ reciepeView.update(model.state)
   function uplodNewRecipe(data) {
 console.log(data)
     }
-
+/**
+ * @function [init] for intialization
+ * 
+ */
 function init(){
   reciepeView.addHandlerRander(controlRecipes);
   reciepeView.addHandlerAddBookmark(updateBookMark);
@@ -110,6 +113,8 @@ function init(){
   reciepeView.addHandlerUpdate(servingController);
   resultsView.addHandlerSearchResult(updateActiveClass)
   addRecipeView.addhandlerFormSubmit(uplodNewRecipe)
+console.log('welcome!')
+console.log('welcome!')
 
 if(model.state.bookmarkedList.length>0)bookMarksView.render(model.state.bookmarkedList)
 
