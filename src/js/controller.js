@@ -114,7 +114,7 @@ function init(){
   resultsView.addHandlerSearchResult(updateActiveClass)
   addRecipeView.addhandlerFormSubmit(uplodNewRecipe)
 console.log('Unhappy')
-
+console.log(BUG)
 if(model.state.bookmarkedList.length>0)bookMarksView.render(model.state.bookmarkedList)
 
 }
