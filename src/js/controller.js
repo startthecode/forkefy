@@ -115,6 +115,11 @@ function init(){
   addRecipeView.addhandlerFormSubmit(uplodNewRecipe)
 console.log('Unhappy')
 console.log(BUG)
+console.log(BUG)
+console.log(BUG)
+console.log(BUG)
+console.log(BUG)
+
 if(model.state.bookmarkedList.length>0)bookMarksView.render(model.state.bookmarkedList)
 
 }
