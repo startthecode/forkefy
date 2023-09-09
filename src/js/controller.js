@@ -113,8 +113,7 @@ function init(){
   reciepeView.addHandlerUpdate(servingController);
   resultsView.addHandlerSearchResult(updateActiveClass)
   addRecipeView.addhandlerFormSubmit(uplodNewRecipe)
-console.log('welcome!')
-console.log('welcome!')
+console.log('happy')
 
 if(model.state.bookmarkedList.length>0)bookMarksView.render(model.state.bookmarkedList)
 
